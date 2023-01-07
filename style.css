@@ -89,6 +89,7 @@ header{
 .plans-container h1{
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 50px;
 }
 .skills-container {
     display: flex;
@@ -121,24 +122,89 @@ header{
 /* quote section  */
 .quote-sectioin {
     position: relative;
-    width: 65%;
+    background-image: linear-gradient(to right,rgba(40, 34, 207, 0.425),rgba(207, 207, 238, 0.114)), url(./images/watch.png);
+    width: 100%, 100%;
+    height: 217px;
+    background-position: center;
+    border-radius: 7px;
     margin: 70px auto;
+    background-repeat: no-repeat;
+    background-size: 65%;
 }
-.quote-sectioin img{
-    width: 100%;
-}
-.quote-text{
-    position: absolute;
-    top: 0;
-}
+
 .quote-text h1 {
     color: white;
-    margin-left: 45px;
-    width: 381px;
-    margin-bottom: 20px;
-    font-size: 28px;
-    margin-top: 29px;
+    position: absolute;
+    top: 13%;
+    width: 30%;
+    left: 20%;
 }
-.quote-text button{
-    margin-left: 45px;   
+.quote-text button {
+    position: absolute;
+    top: 58%;
+    left: 20%;
+}
+/* footer section */
+footer{
+    background-color: #151414;
+    display: flex;
+    padding-bottom: 10%;
+}
+.footer-left {
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 15%;
+    color: white;
+}
+.footer-left h1{
+    margin-bottom: 20px;
+}
+.footer-left p {
+    width: 75%;
+    margin-bottom: 20px;
+}
+.icons {
+    display: flex;
+    justify-content: start;
+}
+.icons img {
+    margin-right: 13px;
+    width: 33px;
+    cursor: pointer;
+}
+
+.footer-right{
+    color: white;
+    margin-top: 10%;
+    margin-left: 6%;
+}
+.footer-right h1{
+    margin-bottom: 20px;
+}
+.footer-right input {
+    color: white;
+    background: transparent;
+    margin-bottom: 13px;
+    border-radius: 5px;
+    padding-left: 20px;
+    width: 255px;
+    height: 41px;
+    border: 0.001px solid white;
+}
+::placeholder{
+    color: white;
+}
+.btn-sub {
+    background-color: #005FAC;
+    width: 134px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 17px;
+    border-radius: 6px;
+    height: 54px;
+}
+.btn-sub:hover{
+    background-color: transparent;
+    border: 1px solid white;
 }
