@@ -51,3 +51,69 @@ header{
     border: .5px solid orange;
     color: #ffffff;
 }
+
+
+/* main section */
+.person-section {
+    display: flex;
+    justify-content: center;
+    width: 925px;
+    align-items: center;
+    margin: 76px auto;
+}
+.main-left img{
+    width: 385px;
+}
+.main-right {
+    margin-top: 96px;
+    width: 400px;
+    margin-left: 66px;
+}
+.main-right h1 {
+    font-weight: 800;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.description {
+    font-size: 14px;
+    font-weight: 100;
+    margin-bottom: 13px;
+}
+.i-color {
+    color: rgb(22, 230, 161);
+    padding: 4px;
+    margin-right: 5px;
+}
+
+/* my plans section */
+.plans-container h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.skills-container {
+    display: flex;
+    /* margin-top: 20px; */
+    justify-content: space-between;
+    width: 65%;
+    margin: 20px auto;
+    align-items: center;
+}
+.skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.skill img{
+    width: 30%;
+}
+.skill h2 {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.skill p{
+    font-size: 14px;
+}
