@@ -117,3 +117,28 @@ header{
 .skill p{
     font-size: 14px;
 }
+
+/* quote section  */
+.quote-sectioin {
+    position: relative;
+    width: 65%;
+    margin: 70px auto;
+}
+.quote-sectioin img{
+    width: 100%;
+}
+.quote-text{
+    position: absolute;
+    top: 0;
+}
+.quote-text h1 {
+    color: white;
+    margin-left: 45px;
+    width: 381px;
+    margin-bottom: 20px;
+    font-size: 28px;
+    margin-top: 29px;
+}
+.quote-text button{
+    margin-left: 45px;   
+}
